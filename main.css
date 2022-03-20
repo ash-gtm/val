@@ -1,0 +1,37 @@
+/*Navbar Stuff*/
+.navbar {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+    border-radius: 50px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    
+    background-color: lightskyblue;
+}
+/*Background of each Element*/
+.navbar li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/*Each Element*/
+.navbar a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.navbar a:hover {
+    color: rgb(30, 126, 163);
+}
+
+/*Body Background*/
+body{
+    
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+
+}
